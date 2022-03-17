@@ -6,12 +6,13 @@
   --main-bg-color-light: #0f111a;
 }
 
-*:first-child > tr:first-child > td,
-*:first-child > tr:first-child > td > * {
+*:first-child>tr:first-child>td,
+*:first-child>tr:first-child>td>* {
   color: var(--main-link-color) !important;
   background: var(--main-bg-color) !important;
   border-color: var(--main-bg-color) !important;
 }
+
 .customTable-level1 tr.tableContent-level1 td {
   border-color: var(--main-border-color) !important;
 }
@@ -30,34 +31,41 @@ img[src]:hover,
 input[type="image"]:hover {
   opacity: 1;
 }
+
 input,
 select,
 button,
 textarea {
   background: var(--main-bg-color-light) !important;
 }
+
 a {
   color: var(--main-link-color) !important;
   border: 0px !important;
   background: var(--main-bg-color) !important;
 }
+
 .box {
   background: var(--main-link-color) !important;
 }
+
 .box-body,
 .box-footer {
   border-bottom-left-radius: 0px !important;
   border-bottom-right-radius: 0px !important;
 }
+
 .btn.btn-link {
   color: var(--main-link-color) !important;
 }
+
 .btn.btn-primary,
-.btn.btn-primary > * {
+.btn.btn-primary>* {
   color: #0f111a !important;
   background-color: var(--main-link-color) !important;
 }
-a > span {
+
+a>span {
   color: var(--main-link-color) !important;
 }
 
