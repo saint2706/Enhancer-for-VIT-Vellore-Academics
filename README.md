@@ -1,10 +1,10 @@
 # Enhancer-for-VIT-Vellore-Academics
 
-**LOOKING FOR MAINTAINERS**
+## **LOOKING FOR MAINTAINERS**
 
 As I have graduated, I cannot help with future bugs found. Please send me an email to take up maintenance for this project so it can be used for future students as well.
 
-![](https://img.shields.io/chrome-web-store/users/hafeeaangmkbibcaahfjdmmmeappjbbp.svg)
+![badge](https://img.shields.io/chrome-web-store/users/hafeeaangmkbibcaahfjdmmmeappjbbp.svg)
 
 An awesome chrome extension that fixes a bunch of errors and adds some features to VIT Vellore's [Academics Portal](https://vtop.vit.ac.in/vtop/).
 
@@ -22,9 +22,11 @@ An awesome chrome extension that fixes a bunch of errors and adds some features 
 ## Local Development
 
 - Clone the source
+
   ```sh
   git clone https://github.com/Presto412/Enhancer-for-VIT-Vellore-Academics/tree/master
   ```
+
 - Load up Chrome browser, go to URL `chrome://extensions`, and enable _Developer Mode_
 - Click on `Load Unpacked`, and use the `src` directory as the root.
 

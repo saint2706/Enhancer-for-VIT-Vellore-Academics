@@ -1,7 +1,8 @@
-chrome.runtime.onMessage.addListener((request) => {
+chrome.runtime.onMessage.addListener( ( request ) =>
+{
   console.log(
     "Contentscript has received a message from from background script: '" +
-      request.message +
-      "'"
-  );
-});
+    request.message +
+    "'"
+  )
+} )

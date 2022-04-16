@@ -2,6 +2,7 @@
   font-family: "CustomFont";
   src: url("b.ttf") format("truetype");
 }
+
 *:not(i):not(.fa):not(.glyphicon) {
   font-family: CustomFont !important;
 }

@@ -3,8 +3,28 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "json.schemas": [
     {
-      "fileMatch": ["**/manifest.json"],
+      "fileMatch": [
+        "**/manifest.json"
+      ],
       "url": "http://json.schemastore.org/chrome-manifest"
     }
-  ]
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
 }
